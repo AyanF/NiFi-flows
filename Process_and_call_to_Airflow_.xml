@@ -751,7 +751,7 @@
                     </entry>
                     <entry>
                         <key>Authorization</key>
-                        <value>Basic YWRtaW46UHpTeUJNazNxWFNhbkZwMg==</value>
+                        <value>Basic YWRtaW4</value>
                     </entry>
                 </properties>
                 <retryCount>10</retryCount>
