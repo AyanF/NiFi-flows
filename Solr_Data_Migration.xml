@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.3">
+    <description></description>
+    <groupId>82c0749c-0182-1000-1c6b-68a78ee7ab4a</groupId>
+    <name>Solr Data Migration</name>
+    <snippet>
+        <processGroups>
+            <id>3b96403a-95fa-377c-0000-000000000000</id>
+            <parentGroupId>2315cad6-8d4c-3fc6-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <versionedComponentId>3b96403a-95fa-377c-9e6b-18a8c35f65ff</versionedComponentId>
+            <comments></comments>
+            <contents>
+                <connections>
+                    <id>2ee41848-c301-31e4-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>2ee41848-c301-31e4-a610-c417ac3cf0f5</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>58f93740-23e1-3873-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>58f93740-23e1-3873-9945-b703a64ff9f6</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>612effe3-b107-3ad9-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>612effe3-b107-3ad9-b5ba-f4e218523c0b</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>6fa508db-1938-300b-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>6fa508db-1938-300b-ba33-581a12f41b1f</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>749e0fda-f3d7-3bf0-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>749e0fda-f3d7-3bf0-8737-b67d0449b555</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>adbebd69-3f23-3b74-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>adbebd69-3f23-3b74-b939-8d6bdb59ffb9</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>83a97bba-a5c9-39d0-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>83a97bba-a5c9-39d0-a99f-79824c1903a3</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>2dea1825-dbe3-3307-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>2dea1825-dbe3-3307-8853-ef7e6dfa953e</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>d9d31a55-3e9c-313d-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>d9d31a55-3e9c-313d-b912-fce3369ef6f7</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>a3573926-a697-3615-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>a3573926-a697-3615-acd4-43028aa88ee6</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>d9826bbe-680a-38eb-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>d9826bbe-680a-38eb-bd4f-9a123222eb5c</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>split</selectedRelationships>
+                    <source>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>2dea1825-dbe3-3307-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>2dea1825-dbe3-3307-8853-ef7e6dfa953e</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>afb15f37-3871-3eab-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>afb15f37-3871-3eab-94d5-358fea961870</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>612effe3-b107-3ad9-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>612effe3-b107-3ad9-b5ba-f4e218523c0b</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>d9826bbe-680a-38eb-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>d9826bbe-680a-38eb-bd4f-9a123222eb5c</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>b0495fa8-fa0f-37ca-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>b0495fa8-fa0f-37ca-b6ae-76ad0e202459</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>d9d31a55-3e9c-313d-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>d9d31a55-3e9c-313d-b912-fce3369ef6f7</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>original</selectedRelationships>
+                    <selectedRelationships>results</selectedRelationships>
+                    <source>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>eaae4f71-04f1-3892-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>eaae4f71-04f1-3892-bc5b-68966e8e7eea</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>bac0232b-518f-363b-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>bac0232b-518f-363b-a821-6552ba52bebe</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>85be49fd-2654-39d2-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>85be49fd-2654-39d2-891d-7afb525c426a</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+                    <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+                    <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+                    <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>3b96403a-95fa-377c-0000-000000000000</groupId>
+                        <id>58f93740-23e1-3873-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>58f93740-23e1-3873-9945-b703a64ff9f6</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <controllerServices>
+                    <id>6f9a04ea-770c-3788-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>6f9a04ea-770c-3788-bff6-13032d9f65f8</versionedComponentId>
+                    <bulletinLevel>WARN</bulletinLevel>
+                    <bundle>
+                        <artifact>nifi-record-serialization-services-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <comments></comments>
+                    <descriptors>
+                        <entry>
+                            <key>schema-access-strategy</key>
+                            <value>
+<name>schema-access-strategy</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-registry</key>
+                            <value>
+<dependencies>
+    <dependentValues>confluent-encoded</dependentValues>
+    <dependentValues>schema-name</dependentValues>
+    <dependentValues>hwx-schema-ref-attributes</dependentValues>
+    <dependentValues>hwx-content-encoded-schema</dependentValues>
+    <propertyName>schema-access-strategy</propertyName>
+</dependencies>
+<identifiesControllerService>org.apache.nifi.schemaregistry.services.SchemaRegistry</identifiesControllerService>
+<name>schema-registry</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-name</key>
+                            <value>
+<dependencies>
+    <dependentValues>schema-name</dependentValues>
+    <propertyName>schema-access-strategy</propertyName>
+</dependencies>
+<name>schema-name</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-version</key>
+                            <value>
+<dependencies>
+    <dependentValues>schema-name</dependentValues>
+    <propertyName>schema-access-strategy</propertyName>
+</dependencies>
+<name>schema-version</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-branch</key>
+                            <value>
+<dependencies>
+    <dependentValues>schema-name</dependentValues>
+    <propertyName>schema-access-strategy</propertyName>
+</dependencies>
+<name>schema-branch</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-text</key>
+                            <value>
+<dependencies>
+    <dependentValues>schema-text-property</dependentValues>
+    <propertyName>schema-access-strategy</propertyName>
+</dependencies>
+<name>schema-text</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>parse_xml_attributes</key>
+                            <value>
+<dependencies>
+    <dependentValues>infer-schema</dependentValues>
+    <propertyName>schema-access-strategy</propertyName>
+</dependencies>
+<name>parse_xml_attributes</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>schema-inference-cache</key>
+                            <value>
+<identifiesControllerService>org.apache.nifi.serialization.RecordSchemaCacheService</identifiesControllerService>
+<name>schema-inference-cache</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>record_format</key>
+                            <value>
+<name>record_format</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>attribute_prefix</key>
+                            <value>
+<name>attribute_prefix</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>content_field_name</key>
+                            <value>
+<name>content_field_name</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Date Format</key>
+                            <value>
+<name>Date Format</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Time Format</key>
+                            <value>
+<name>Time Format</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>Timestamp Format</key>
+                            <value>
+<name>Timestamp Format</name>
+                            </value>
+                        </entry>
+                    </descriptors>
+                    <name>XMLReader</name>
+                    <persistsState>false</persistsState>
+                    <properties>
+                        <entry>
+                            <key>schema-access-strategy</key>
+                            <value>infer-schema</value>
+                        </entry>
+                        <entry>
+                            <key>schema-registry</key>
+                        </entry>
+                        <entry>
+                            <key>schema-name</key>
+                            <value>${schema.name}</value>
+                        </entry>
+                        <entry>
+                            <key>schema-version</key>
+                        </entry>
+                        <entry>
+                            <key>schema-branch</key>
+                        </entry>
+                        <entry>
+                            <key>schema-text</key>
+                            <value>${avro.schema}</value>
+                        </entry>
+                        <entry>
+                            <key>parse_xml_attributes</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>schema-inference-cache</key>
+                        </entry>
+                        <entry>
+                            <key>record_format</key>
+                            <value>false</value>
+                        </entry>
+                        <entry>
+                            <key>attribute_prefix</key>
+                        </entry>
+                        <entry>
+                            <key>content_field_name</key>
+                        </entry>
+                        <entry>
+                            <key>Date Format</key>
+                        </entry>
+                        <entry>
+                            <key>Time Format</key>
+                        </entry>
+                        <entry>
+                            <key>Timestamp Format</key>
+                        </entry>
+                    </properties>
+                    <state>ENABLED</state>
+                    <type>org.apache.nifi.xml.XMLReader</type>
+                </controllerServices>
+                <processors>
+                    <id>2dea1825-dbe3-3307-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>984.0</x>
+                        <y>400.0</y>
+                    </position>
+                    <versionedComponentId>2dea1825-dbe3-3307-8853-ef7e6dfa953e</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Split Depth</key>
+<value>
+    <name>Split Depth</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Split Depth</key>
+<value>1</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>SplitXml</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>original</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>split</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.SplitXml</type>
+                </processors>
+                <processors>
+                    <id>58f93740-23e1-3873-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>2112.0</x>
+                        <y>144.0</y>
+                    </position>
+                    <versionedComponentId>58f93740-23e1-3873-9945-b703a64ff9f6</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Regular Expression</key>
+<value>
+    <name>Regular Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>
+    <name>Replacement Value</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>
+    <name>Character Set</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>
+    <name>Maximum Buffer Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>
+    <name>Replacement Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>
+    <name>Evaluation Mode</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>
+    <name>Line-by-Line Evaluation Mode</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Regular Expression</key>
+<value>(?s)(^.*$)</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>&lt;/add&gt;</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>UTF-8</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>1 MB</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>Append</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>Line-by-Line</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>Last-Line</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>ReplaceText</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.ReplaceText</type>
+                </processors>
+                <processors>
+                    <id>612effe3-b107-3ad9-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>2096.0</x>
+                        <y>368.0</y>
+                    </position>
+                    <versionedComponentId>612effe3-b107-3ad9-b5ba-f4e218523c0b</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Regular Expression</key>
+<value>
+    <name>Regular Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>
+    <name>Replacement Value</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>
+    <name>Character Set</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>
+    <name>Maximum Buffer Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>
+    <name>Replacement Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>
+    <name>Evaluation Mode</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>
+    <name>Line-by-Line Evaluation Mode</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Regular Expression</key>
+<value>(?s)(^.*$)</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>&lt;add&gt;</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>UTF-8</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>1 MB</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>Prepend</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>Line-by-Line</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>First-Line</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>ReplaceText</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.ReplaceText</type>
+                </processors>
+                <processors>
+                    <id>749e0fda-f3d7-3bf0-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>568.0</x>
+                        <y>760.0</y>
+                    </position>
+                    <versionedComponentId>749e0fda-f3d7-3bf0-8737-b67d0449b555</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Regular Expression</key>
+<value>
+    <name>Regular Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>
+    <name>Replacement Value</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>
+    <name>Character Set</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>
+    <name>Maximum Buffer Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>
+    <name>Replacement Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>
+    <name>Evaluation Mode</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>
+    <name>Line-by-Line Evaluation Mode</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Regular Expression</key>
+<value>&lt;/docs&gt;</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value></value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>UTF-8</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>1 MB</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>Literal Replace</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>Line-by-Line</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>All</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>ReplaceText</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.ReplaceText</type>
+                </processors>
+                <processors>
+                    <id>7db423b1-967e-316f-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1456.0</x>
+                        <y>-224.0</y>
+                    </position>
+                    <versionedComponentId>7db423b1-967e-316f-823e-685ac6589f8f</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-solr-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Solr Type</key>
+<value>
+    <name>Solr Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Location</key>
+<value>
+    <name>Solr Location</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Collection</key>
+<value>
+    <name>Collection</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Update Path</key>
+<value>
+    <name>Solr Update Path</name>
+</value>
+                            </entry>
+                            <entry>
+<key>put-solr-record-record-reader</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.serialization.RecordReaderFactory</identifiesControllerService>
+    <name>put-solr-record-record-reader</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Fields To Index</key>
+<value>
+    <name>Fields To Index</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Commit Within</key>
+<value>
+    <name>Commit Within</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+    <name>kerberos-credentials-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-user-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosUserService</identifiesControllerService>
+    <name>kerberos-user-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-principal</key>
+<value>
+    <name>kerberos-principal</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-password</key>
+<value>
+    <name>kerberos-password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Username</key>
+<value>
+    <name>Username</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+<value>
+    <name>Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SSL Context Service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+    <name>SSL Context Service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Socket Timeout</key>
+<value>
+    <name>Solr Socket Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Connection Timeout</key>
+<value>
+    <name>Solr Connection Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections</key>
+<value>
+    <name>Solr Maximum Connections</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections Per Host</key>
+<value>
+    <name>Solr Maximum Connections Per Host</name>
+</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Client Timeout</key>
+<value>
+    <name>ZooKeeper Client Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Connection Timeout</key>
+<value>
+    <name>ZooKeeper Connection Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Batch Size</key>
+<value>
+    <name>Batch Size</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Solr Type</key>
+<value>Standard</value>
+                            </entry>
+                            <entry>
+<key>Solr Location</key>
+<value>http://localhost:8983/solr/enterpriseSearch2</value>
+                            </entry>
+                            <entry>
+<key>Collection</key>
+                            </entry>
+                            <entry>
+<key>Solr Update Path</key>
+<value>/update</value>
+                            </entry>
+                            <entry>
+<key>put-solr-record-record-reader</key>
+<value>6f9a04ea-770c-3788-0000-000000000000</value>
+                            </entry>
+                            <entry>
+<key>Fields To Index</key>
+                            </entry>
+                            <entry>
+<key>Commit Within</key>
+<value>5000</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+                            </entry>
+                            <entry>
+<key>kerberos-user-service</key>
+                            </entry>
+                            <entry>
+<key>kerberos-principal</key>
+                            </entry>
+                            <entry>
+<key>kerberos-password</key>
+                            </entry>
+                            <entry>
+<key>Username</key>
+                            </entry>
+                            <entry>
+<key>Password</key>
+                            </entry>
+                            <entry>
+<key>SSL Context Service</key>
+                            </entry>
+                            <entry>
+<key>Solr Socket Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>Solr Connection Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections</key>
+<value>10</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections Per Host</key>
+<value>5</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Client Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Connection Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>Batch Size</key>
+<value>500</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutSolrRecord</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>connection_failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.solr.PutSolrRecord</type>
+                </processors>
+                <processors>
+                    <id>85be49fd-2654-39d2-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1480.0</x>
+                        <y>152.0</y>
+                    </position>
+                    <versionedComponentId>85be49fd-2654-39d2-891d-7afb525c426a</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-solr-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Solr Type</key>
+<value>
+    <name>Solr Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Location</key>
+<value>
+    <name>Solr Location</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Collection</key>
+<value>
+    <name>Collection</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Content Stream Path</key>
+<value>
+    <name>Content Stream Path</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Content-Type</key>
+<value>
+    <name>Content-Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Commit Within</key>
+<value>
+    <name>Commit Within</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+    <name>kerberos-credentials-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-user-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosUserService</identifiesControllerService>
+    <name>kerberos-user-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-principal</key>
+<value>
+    <name>kerberos-principal</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-password</key>
+<value>
+    <name>kerberos-password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Username</key>
+<value>
+    <name>Username</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+<value>
+    <name>Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SSL Context Service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+    <name>SSL Context Service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Socket Timeout</key>
+<value>
+    <name>Solr Socket Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Connection Timeout</key>
+<value>
+    <name>Solr Connection Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections</key>
+<value>
+    <name>Solr Maximum Connections</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections Per Host</key>
+<value>
+    <name>Solr Maximum Connections Per Host</name>
+</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Client Timeout</key>
+<value>
+    <name>ZooKeeper Client Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Connection Timeout</key>
+<value>
+    <name>ZooKeeper Connection Timeout</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Solr Type</key>
+<value>Standard</value>
+                            </entry>
+                            <entry>
+<key>Solr Location</key>
+<value>http://localhost:8983/solr/enterpriseSearch</value>
+                            </entry>
+                            <entry>
+<key>Collection</key>
+                            </entry>
+                            <entry>
+<key>Content Stream Path</key>
+<value>/update</value>
+                            </entry>
+                            <entry>
+<key>Content-Type</key>
+<value>application/xml</value>
+                            </entry>
+                            <entry>
+<key>Commit Within</key>
+<value>5000</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+                            </entry>
+                            <entry>
+<key>kerberos-user-service</key>
+                            </entry>
+                            <entry>
+<key>kerberos-principal</key>
+                            </entry>
+                            <entry>
+<key>kerberos-password</key>
+                            </entry>
+                            <entry>
+<key>Username</key>
+                            </entry>
+                            <entry>
+<key>Password</key>
+                            </entry>
+                            <entry>
+<key>SSL Context Service</key>
+                            </entry>
+                            <entry>
+<key>Solr Socket Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>Solr Connection Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections</key>
+<value>10</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections Per Host</key>
+<value>5</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Client Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Connection Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>PutSolrContentStream</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>connection_failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.solr.PutSolrContentStream</type>
+                </processors>
+                <processors>
+                    <id>adbebd69-3f23-3b74-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>576.0</x>
+                        <y>504.0</y>
+                    </position>
+                    <versionedComponentId>adbebd69-3f23-3b74-b939-8d6bdb59ffb9</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Regular Expression</key>
+<value>
+    <name>Regular Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>
+    <name>Replacement Value</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>
+    <name>Character Set</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>
+    <name>Maximum Buffer Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>
+    <name>Replacement Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>
+    <name>Evaluation Mode</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>
+    <name>Line-by-Line Evaluation Mode</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Regular Expression</key>
+<value>&lt;docs&gt;</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value></value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>UTF-8</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>1 MB</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>Literal Replace</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>Line-by-Line</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>All</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>ReplaceText</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.ReplaceText</type>
+                </processors>
+                <processors>
+                    <id>d9826bbe-680a-38eb-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>1480.0</x>
+                        <y>400.0</y>
+                    </position>
+                    <versionedComponentId>d9826bbe-680a-38eb-bd4f-9a123222eb5c</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Regular Expression</key>
+<value>
+    <name>Regular Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value>
+    <name>Replacement Value</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>
+    <name>Character Set</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>
+    <name>Maximum Buffer Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>
+    <name>Replacement Strategy</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>
+    <name>Evaluation Mode</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>
+    <name>Line-by-Line Evaluation Mode</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Regular Expression</key>
+<value>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</value>
+                            </entry>
+                            <entry>
+<key>Replacement Value</key>
+<value></value>
+                            </entry>
+                            <entry>
+<key>Character Set</key>
+<value>UTF-8</value>
+                            </entry>
+                            <entry>
+<key>Maximum Buffer Size</key>
+<value>1 MB</value>
+                            </entry>
+                            <entry>
+<key>Replacement Strategy</key>
+<value>Literal Replace</value>
+                            </entry>
+                            <entry>
+<key>Evaluation Mode</key>
+<value>Entire text</value>
+                            </entry>
+                            <entry>
+<key>Line-by-Line Evaluation Mode</key>
+<value>All</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>ReplaceText</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.ReplaceText</type>
+                </processors>
+                <processors>
+                    <id>d9d31a55-3e9c-313d-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>992.0</x>
+                        <y>160.0</y>
+                    </position>
+                    <versionedComponentId>d9d31a55-3e9c-313d-b912-fce3369ef6f7</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>XSLT file name</key>
+<value>
+    <name>XSLT file name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>xslt-controller</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.lookup.StringLookupService</identifiesControllerService>
+    <name>xslt-controller</name>
+</value>
+                            </entry>
+                            <entry>
+<key>xslt-controller-key</key>
+<value>
+    <name>xslt-controller-key</name>
+</value>
+                            </entry>
+                            <entry>
+<key>indent-output</key>
+<value>
+    <name>indent-output</name>
+</value>
+                            </entry>
+                            <entry>
+<key>secure-processing</key>
+<value>
+    <name>secure-processing</name>
+</value>
+                            </entry>
+                            <entry>
+<key>cache-size</key>
+<value>
+    <name>cache-size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>cache-ttl-after-last-access</key>
+<value>
+    <name>cache-ttl-after-last-access</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>XSLT file name</key>
+<value>script/stylesheet.xslt</value>
+                            </entry>
+                            <entry>
+<key>xslt-controller</key>
+                            </entry>
+                            <entry>
+<key>xslt-controller-key</key>
+                            </entry>
+                            <entry>
+<key>indent-output</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>secure-processing</key>
+<value>true</value>
+                            </entry>
+                            <entry>
+<key>cache-size</key>
+<value>10</value>
+                            </entry>
+                            <entry>
+<key>cache-ttl-after-last-access</key>
+<value>60 secs</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>TransformXml</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.TransformXml</type>
+                </processors>
+                <processors>
+                    <id>eaae4f71-04f1-3892-0000-000000000000</id>
+                    <parentGroupId>3b96403a-95fa-377c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>392.0</x>
+                        <y>160.0</y>
+                    </position>
+                    <versionedComponentId>eaae4f71-04f1-3892-bc5b-68966e8e7eea</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-solr-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.17.0</version>
+                    </bundle>
+                    <config>
+                        <backoffMechanism>PENALIZE_FLOWFILE</backoffMechanism>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Solr Type</key>
+<value>
+    <name>Solr Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Location</key>
+<value>
+    <name>Solr Location</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Collection</key>
+<value>
+    <name>Collection</name>
+</value>
+                            </entry>
+                            <entry>
+<key>return_type</key>
+<value>
+    <name>return_type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Record Writer</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.serialization.RecordSetWriterFactory</identifiesControllerService>
+    <name>Record Writer</name>
+</value>
+                            </entry>
+                            <entry>
+<key>solr_param_query</key>
+<value>
+    <name>solr_param_query</name>
+</value>
+                            </entry>
+                            <entry>
+<key>solr_param_request_handler</key>
+<value>
+    <name>solr_param_request_handler</name>
+</value>
+                            </entry>
+                            <entry>
+<key>solr_param_field_list</key>
+<value>
+    <name>solr_param_field_list</name>
+</value>
+                            </entry>
+                            <entry>
+<key>solr_param_sort</key>
+<value>
+    <name>solr_param_sort</name>
+</value>
+                            </entry>
+                            <entry>
+<key>solr_param_start</key>
+<value>
+    <name>solr_param_start</name>
+</value>
+                            </entry>
+                            <entry>
+<key>solr_param_rows</key>
+<value>
+    <name>solr_param_rows</name>
+</value>
+                            </entry>
+                            <entry>
+<key>amount_documents_to_return</key>
+<value>
+    <name>amount_documents_to_return</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+    <name>kerberos-credentials-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-user-service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.kerberos.KerberosUserService</identifiesControllerService>
+    <name>kerberos-user-service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-principal</key>
+<value>
+    <name>kerberos-principal</name>
+</value>
+                            </entry>
+                            <entry>
+<key>kerberos-password</key>
+<value>
+    <name>kerberos-password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Username</key>
+<value>
+    <name>Username</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+<value>
+    <name>Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>SSL Context Service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+    <name>SSL Context Service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Socket Timeout</key>
+<value>
+    <name>Solr Socket Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Connection Timeout</key>
+<value>
+    <name>Solr Connection Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections</key>
+<value>
+    <name>Solr Maximum Connections</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections Per Host</key>
+<value>
+    <name>Solr Maximum Connections Per Host</name>
+</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Client Timeout</key>
+<value>
+    <name>ZooKeeper Client Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Connection Timeout</key>
+<value>
+    <name>ZooKeeper Connection Timeout</name>
+</value>
+                            </entry>
+                            <entry>
+<key>wt</key>
+<value>
+    <name>wt</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <maxBackoffPeriod>10 mins</maxBackoffPeriod>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Solr Type</key>
+<value>Standard</value>
+                            </entry>
+                            <entry>
+<key>Solr Location</key>
+<value>http://localhost:8984/solr/enterpriseSearch</value>
+                            </entry>
+                            <entry>
+<key>Collection</key>
+                            </entry>
+                            <entry>
+<key>return_type</key>
+<value>XML</value>
+                            </entry>
+                            <entry>
+<key>Record Writer</key>
+                            </entry>
+                            <entry>
+<key>solr_param_query</key>
+<value>*:*</value>
+                            </entry>
+                            <entry>
+<key>solr_param_request_handler</key>
+<value>/select</value>
+                            </entry>
+                            <entry>
+<key>solr_param_field_list</key>
+                            </entry>
+                            <entry>
+<key>solr_param_sort</key>
+                            </entry>
+                            <entry>
+<key>solr_param_start</key>
+                            </entry>
+                            <entry>
+<key>solr_param_rows</key>
+                            </entry>
+                            <entry>
+<key>amount_documents_to_return</key>
+<value>return_all_results</value>
+                            </entry>
+                            <entry>
+<key>kerberos-credentials-service</key>
+                            </entry>
+                            <entry>
+<key>kerberos-user-service</key>
+                            </entry>
+                            <entry>
+<key>kerberos-principal</key>
+                            </entry>
+                            <entry>
+<key>kerberos-password</key>
+                            </entry>
+                            <entry>
+<key>Username</key>
+                            </entry>
+                            <entry>
+<key>Password</key>
+                            </entry>
+                            <entry>
+<key>SSL Context Service</key>
+                            </entry>
+                            <entry>
+<key>Solr Socket Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>Solr Connection Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections</key>
+<value>10</value>
+                            </entry>
+                            <entry>
+<key>Solr Maximum Connections Per Host</key>
+<value>5</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Client Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>ZooKeeper Connection Timeout</key>
+<value>10 seconds</value>
+                            </entry>
+                            <entry>
+<key>wt</key>
+<value>json</value>
+                            </entry>
+                        </properties>
+                        <retryCount>10</retryCount>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <executionNodeRestricted>false</executionNodeRestricted>
+                    <name>QuerySolr</name>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>facets</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>failure</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>original</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>results</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>true</autoTerminate>
+                        <name>stats</name>
+                        <retry>false</retry>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.solr.QuerySolr</type>
+                </processors>
+            </contents>
+            <defaultBackPressureDataSizeThreshold>1 GB</defaultBackPressureDataSizeThreshold>
+            <defaultBackPressureObjectThreshold>10000</defaultBackPressureObjectThreshold>
+            <defaultFlowFileExpiration>0 sec</defaultFlowFileExpiration>
+            <flowfileConcurrency>UNBOUNDED</flowfileConcurrency>
+            <flowfileOutboundPolicy>STREAM_WHEN_AVAILABLE</flowfileOutboundPolicy>
+            <name>Solr Data Migration</name>
+            <variables/>
+        </processGroups>
+    </snippet>
+    <timestamp>05/02/2023 15:59:56 IST</timestamp>
+</template>
